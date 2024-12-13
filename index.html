@@ -146,7 +146,7 @@
     		iframeDocument.addEventListener('keydown', (e) => {
     			if (e.key === "Enter") {
     				const schoolInput = iframeDocument.getElementById('school-name');
-    				if (schoolInput && schoolInput.value.toLowerCase() === "equinox") {
+    				if (schoolInput && schoolInput.value.toLowerCase() === "nobody") {
     					if (localStorage.getItem('cloakOnLogIn') === 'true') {
     						win = window.open();
     						win.document.body.style.margin = '0';
